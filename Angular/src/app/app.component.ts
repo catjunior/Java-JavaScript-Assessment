@@ -17,4 +17,5 @@ export class AppComponent {
       (data) => this.table = data
     );
   }
+  
 }
