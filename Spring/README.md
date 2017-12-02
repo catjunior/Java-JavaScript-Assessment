@@ -34,4 +34,12 @@ GET http://localhost:8080/name
           }
          ]
 
+####
+Inside src/main/java/rest/demo
+DemoApplication.java starts the spring-boot application
+
+Inside src/main/java/rest/demo/user
+The UserController map the incoming URL to the related service functions
+The Service contains the business logic
+The UserRepo is treated as a CRUD repository it to the H2, a "embedded memory database"  
 
