@@ -41,5 +41,5 @@ Inside src/main/java/rest/demo
 Inside src/main/java/rest/demo/user  
   -The UserController map the incoming URL to the related service functions  
   -The Service contains the business logic  
-  -The UserRepo is treated as a CRUD repository it to the H2, a "embedded memory database"    
+  -The UserRepo is treated as a CRUD repository to the H2, an "embedded memory database"    
 
