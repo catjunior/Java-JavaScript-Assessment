@@ -35,7 +35,7 @@ GET http://localhost:8080/name
          ]
 
 ####
-Inside src/main/java/rest/demo
+Inside src/main/java/rest/demo  
 DemoApplication.java starts the spring-boot application
 
 Inside src/main/java/rest/demo/user
