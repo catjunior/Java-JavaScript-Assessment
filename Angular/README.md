@@ -10,9 +10,9 @@ After run `ng serve`, the table will be automatically generated in the view.
 ## 
 A http get method is in my-data.service.ts, and it fetches all the raw data from the endpoint https://api.github.com/orgs/sidgs/repos
 
-Maps the fetched the data into json format and stored into local variable "table []" in app.component.ts
+Maps the fetched the data into json format and stores into local variable "table []" in app.component.ts
 
-Lays out the asked data into the table view in app.component.html
+Lays out the asked data into a table view in app.component.html
 
 
 
