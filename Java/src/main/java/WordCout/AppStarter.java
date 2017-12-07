@@ -1,18 +1,12 @@
 package WordCout;
 
-import java.io.FileNotFoundException;
+import java.io.IOException;
 
 public class AppStarter {
-    public static void main(String[] args) throws FileNotFoundException {
-//        System.out.println("Please enter your words");
-//
-//        FromCommand cl = new FromCommand();
-//        cl.reformat();
-//        cl.numberOfWords();
-//        cl.numberOfTimes();
-//        cl.distinctWords();
 
-        FromFile a = new FromFile();
-        a.print();
+    public static void main(String[] args) throws IOException {
+        
+        OptionPannel op =  new OptionPannel();
+        op.chooseOption();
     }
 }

@@ -7,7 +7,7 @@ public class FromCommand {
     //take input from command line
     Scanner scanner = new Scanner(System.in);
     String initialInput = scanner.nextLine();
-    String [] wordsArr;
+    private String [] wordsArr;
     private Map<String, Integer> wordMap;
 
     //reformat the initial input to array with words only
