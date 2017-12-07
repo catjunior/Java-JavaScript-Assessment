@@ -1,5 +1,8 @@
 package WordCout;
 
+import org.apache.commons.io.FileUtils;
+
+import java.io.File;
 import java.io.IOException;
 import java.util.Scanner;
 
@@ -21,23 +24,31 @@ public class OptionPannel {
             userChoice = scanner.nextLine();
 
             if (userChoice.equals("c")){
+
                 System.out.println("Please input from commandline:");
-                FromCommand fc = new FromCommand();
-                fc.reformat();
-                fc.numberOfWords();
-                fc.numberOfTimes();
-                fc.distinctWords();
+                Scanner scanner = new Scanner(System.in);
+                String input = scanner.nextLine();
+                
+                Layout lo = new Layout();
+                lo.output(input);
+
             } else if(userChoice.equals("f")){
+
                 System.out.println("Type in the text file directory: ex E:\\CodingTest\\Java\\TestSample.txt");
-                FromFile ff = new FromFile();
-                ff.reformat();
-                ff.numberOfWords();
-                ff.numberOfTimes();
-                ff.distinctWords();
+                Scanner scanner = new Scanner(System.in);
+                String input = scanner.nextLine();
+                String path = input.replaceAll("\\\\", "\\\\\\\\");
+
+                File file = new File(path);
+                String str = FileUtils.readFileToString(file);
+
+                Layout lo = new Layout();
+                lo.output(str);
+
             }
         } while (!userChoice.equals("e"));
 
-        System.out.println("Bye Bye!");
+        System.out.println("Thanks You!");
     }
 
 }
