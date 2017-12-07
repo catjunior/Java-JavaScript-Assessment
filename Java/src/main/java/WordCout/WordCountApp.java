@@ -9,11 +9,9 @@ public class WordCountApp {
     String [] wordsArr;
     private Map<String, Integer> wordMap;
 
-    public String[] reformat (){
+    public void reformat (){
         String wordsOnly = initialInput.replaceAll("[^A-Za-z]+", " ").toLowerCase();
-        String[] trimmedInput = wordsOnly.split(" ");
-        wordsArr =  trimmedInput;
-        return wordsArr;
+        wordsArr = wordsOnly.split(" ");
     }
 
     public int numberOfWords(){
@@ -41,7 +39,6 @@ public class WordCountApp {
         return map;
     }
 
-
     public Set<String> distinctWords(){
         Set<String> set = new TreeSet<String>();
         for (String word : wordMap.keySet()) {
@@ -60,7 +57,6 @@ public class WordCountApp {
         System.out.println("Please enter your words");
 
         WordCountApp test = new WordCountApp();
-
         test.reformat();
         test.numberOfWords();
         test.numberOfTimes();
