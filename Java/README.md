@@ -14,9 +14,9 @@ list the total number of words
 list the number of times each words appears
 list the total number of distinct words  
 
-The program ignores the punctuation, CAPS, space, andn any special characters. 
+The program ignores the punctuation, CAPS, space, andn any special characters.   
 
-### 
+### Description
 Source code is under Java/src/main/java/WordCount  
 
 AppStarter: starts the app  
