@@ -6,7 +6,7 @@ run "java -jar Java.jar"
 ## Commandline Interface
 You will have the option to choose input type:  
 C: from commandline  
-F: from file (input file direcotry into commandline)  
+F: from file (type file direcotry into commandline)  
 E: exit  
   
 ## Result
