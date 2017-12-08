@@ -1,4 +1,4 @@
-package WordCout;
+package WordCount;
 
 import org.apache.commons.io.FileUtils;
 
