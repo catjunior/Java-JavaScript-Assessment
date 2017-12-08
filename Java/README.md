@@ -11,7 +11,7 @@ E: exit
   
 ## Result
 list the total number of words  
-list the number of times each words appears
+list the number of times each words appears  
 list the total number of distinct words  
 
 The program ignores the punctuation, CAPS, space, andn any special characters.   
