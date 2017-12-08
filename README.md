@@ -1,4 +1,7 @@
-# Java-JavaScript-Assessment 
+# Java-JavaScript-Assessment  
+
+#
+The Java folder is for the Java Task  
 
 ##
 The Anuglar folder is for the JavaScript Task
