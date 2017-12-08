@@ -28,7 +28,7 @@ public class OptionPannel {
                 System.out.println("Please input from commandline:");
                 Scanner scanner = new Scanner(System.in);
                 String input = scanner.nextLine();
-                
+
                 Layout lo = new Layout();
                 lo.output(input);
 
