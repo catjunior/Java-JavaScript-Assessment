@@ -20,9 +20,9 @@ The program ignores the punctuation, CAPS, space, andn any special characters.
 Source code is under Java/src/main/java/WordCount  
 
 AppStarter: starts the app  
-OptionPannel: ask user to choose option  
-Layout: map the wordCountService to show  
-WordCountSerice: functioanl logic 
+OptionPannel: asks user to choose option  
+Layout: maps the wordCountService to show  
+WordCountSerice: functional logic 
 
 
 
